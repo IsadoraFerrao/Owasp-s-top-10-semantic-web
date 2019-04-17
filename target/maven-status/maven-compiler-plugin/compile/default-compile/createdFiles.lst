@@ -1,0 +1,7 @@
+ontology\OntoClass.class
+ontology\OntoObjectProperty.class
+ontology\OntoIndividual.class
+ontology\OntoModel.class
+bean\WebSemantic.class
+ontology\OntoDataProperty.class
+ontology\OntoEntity.class

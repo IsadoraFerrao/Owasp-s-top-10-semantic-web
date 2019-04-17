@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sherl/ontologies/2017/9/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sherl/ontologies/2017/9/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.semanticweb.org/sherl/ontologies/2017/9/untitled-ontology-4#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Proposta de Ontologia para Segurança de sistemas web desenvolvido para a disciplina de Web Semântica
+
+
+Autores: Isadora Ferrão e Sherlon Almeida 
+Matrículas: 151151387 e 151150179
+
+UNIVERSIDADE FEDERAL DO PAMPA - CAMPUS ALEGRETE</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#Uniscan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ataques"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quebra_de_autenticação_e_gerenciamento_de_sessão"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Bloqueia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denial_Of_Service_-_DoS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Replay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Física"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atacante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modificação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#logs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personificação"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andiparos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#referência_insegura_e_direta_a_objetos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Descrição"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gravidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Exploram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spoofing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zed_Attack_Proxy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interceptação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firewall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bastille_Linux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Externo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Confidencialidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integridade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kismet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cross-site_scripting_(XSS)"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regras"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Possui"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sistema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scanner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Detecta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ossim"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Realiza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lógica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skipfish"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IPServidor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grabber"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#man-in-middle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#configuração_incorreta_de_segurança"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nessus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deficiência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disponibilidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interrupção"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autenticidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerabilidades"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#linguagens"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Untangle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#versãoBD"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IP"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Atacante"/>
+        <Class IRI="#Ataques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atacante"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Realiza"/>
+            <Class IRI="#Ataques"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atacante"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#IP"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Exploram"/>
+            <Class IRI="#Vulnerabilidades"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Descrição"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ataques"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autenticidade"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Confidencialidade"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deficiência"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disponibilidade"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Externo"/>
+        <Class IRI="#Atacante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Bloqueia"/>
+            <Class IRI="#Vulnerabilidades"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#logs"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#regras"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Física"/>
+        <Class IRI="#Deficiência"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integridade"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interceptação"/>
+        <Class IRI="#Ataques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interno"/>
+        <Class IRI="#Atacante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interrupção"/>
+        <Class IRI="#Ataques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lógica"/>
+        <Class IRI="#Deficiência"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modificação"/>
+        <Class IRI="#Ataques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personificação"/>
+        <Class IRI="#Ataques"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scanner"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scanner"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#Detecta"/>
+            <Class IRI="#Vulnerabilidades"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scanner"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scanner"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <ObjectMinCardinality cardinality="0">
+            <ObjectProperty IRI="#Possui"/>
+            <Class IRI="#Vulnerabilidades"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#linguagens"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#IPServidor"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#URL"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sistema"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#versãoBD"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidades"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composta"/>
+            <Class IRI="#Deficiência"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidades"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Descrição"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidades"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#ID"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidades"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#Nome"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerabilidades"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#gravidade"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Andiparos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Firewall"/>
+        <NamedIndividual IRI="#Bastille_Linux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interrupção"/>
+        <NamedIndividual IRI="#Denial_Of_Service_-_DoS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Grabber"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Firewall"/>
+        <NamedIndividual IRI="#Kismet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Nessus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Firewall"/>
+        <NamedIndividual IRI="#Ossim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Modificação"/>
+        <NamedIndividual IRI="#Replay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Skipfish"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personificação"/>
+        <NamedIndividual IRI="#Spoofing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Uniscan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Firewall"/>
+        <NamedIndividual IRI="#Untangle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scanner"/>
+        <NamedIndividual IRI="#Zed_Attack_Proxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Integridade"/>
+        <NamedIndividual IRI="#configuração_incorreta_de_segurança"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interceptação"/>
+        <NamedIndividual IRI="#man-in-middle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Autenticidade"/>
+        <NamedIndividual IRI="#quebra_de_autenticação_e_gerenciamento_de_sessão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disponibilidade"/>
+        <NamedIndividual IRI="#referência_insegura_e_direta_a_objetos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Confidencialidade"/>
+        <NamedIndividual IRI="#cross-site_scripting_(XSS)"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Bloqueia"/>
+        <Class IRI="#Firewall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Detecta"/>
+        <Class IRI="#Scanner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Exploram"/>
+        <Class IRI="#Ataques"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Possui"/>
+        <Class IRI="#Sistema"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Realiza"/>
+        <Class IRI="#Atacante"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Bloqueia"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Detecta"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Exploram"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Possui"/>
+        <Class IRI="#Vulnerabilidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Realiza"/>
+        <Class IRI="#Ataques"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
